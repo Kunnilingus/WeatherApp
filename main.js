@@ -66,7 +66,7 @@ form.addEventListener("submit", async function (e) {
       (el) => el.code === data.current.condition.code
     );
 
-    const filePath = "./img/" + (data.current.is_day ? "day" : "night") + "/";
+    const filePath = "img/" + (data.current.is_day ? "day" : "night") + "/";
     const fileName = (data.current.is_day ? info.day : info.night) + ".png";
     const imgPath = filePath + fileName;
     
