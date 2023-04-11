@@ -1,4 +1,4 @@
-import conditions from "./conditions.js";
+import conditions from "conditions.js";
 
 //Переменные
 const apiKey = "b7626a4d7aaa4b48b0090622230704";
